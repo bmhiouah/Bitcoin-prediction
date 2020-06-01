@@ -1,3 +1,4 @@
 /mds_env
 notebook/.ipynb_checkpoints
 .DS_Store
+/notebook/__pycache__
