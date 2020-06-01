@@ -32,7 +32,7 @@ Fork this repository so that you can commit your changes
 
 * Install requirements
 
-`pip install -r requirements.txt`pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 ## Project Organization
