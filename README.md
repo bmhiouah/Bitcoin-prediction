@@ -12,20 +12,26 @@ Fork this repository so that you can commit your changes
 
 * Create a virtual environment (you may skip this step if mds_env already exists in your directory)
 
-* **Using virtualenv**
+**Using virtualenv**
+
 `virtualenv -p python3 mds_env`
 
-* **Using conda**
+**Using conda**
+
 `conda create -n mds_env python=3`
 
 * Activate virtual environment
-* **Using virtualenv**
+
+**Using virtualenv**
+
 `. mds_env/bin/activate`
 
-* **Using conda**
+**Using conda**
+
 `source activate mds_env`
 
 * Install requirements
+
 `pip install -r requirements.txt`pip install -r requirements.txt
 
 
