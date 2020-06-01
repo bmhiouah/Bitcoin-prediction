@@ -6,11 +6,11 @@ Fork this repository so that you can commit your changes
 
 ## Installation
 
-* Go to path
+### Go to path
 
 `cd /path/to/st4_mds_prepa`
 
-* Create a virtual environment (you may skip this step if mds_env already exists in your directory)
+### Create a virtual environment (you may skip this step if mds_env already exists in your directory)
 
 **Using virtualenv**
 
@@ -20,7 +20,7 @@ Fork this repository so that you can commit your changes
 
 `conda create -n mds_env python=3`
 
-* Activate virtual environment
+### Activate virtual environment
 
 **Using virtualenv**
 
@@ -30,7 +30,7 @@ Fork this repository so that you can commit your changes
 
 `source activate mds_env`
 
-* Install requirements
+### Install requirements
 
 `pip install -r requirements.txt`
 
