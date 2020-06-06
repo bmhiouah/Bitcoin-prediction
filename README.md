@@ -48,7 +48,8 @@ Using conda
 
     ├── README.md          <- Contains desctiption of the project
     ├── notebook           <- folder for notebook
-        ├── case_study_group_n.ipynb <- starter notebook for case study, replace n by the group number
+        ├── case_study_arima_group_n.ipynb <- starter notebook for ARIMA modeling, replace n by the group number
+        ├── case_study_rnn_group_n.ipynb <- starter notebook for RNN modeling, replace n by the group number
     ├── data               <- folder for data
         ├── df_blockchain.csv <- bitcoin and blockchain data from https://blockchain.info/
     ├── .gitignore
