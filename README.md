@@ -1,8 +1,18 @@
 # Case study ST4 MDS
+
 This repo contains all starting files for ST4 MDS case study
 
-# Fork this repository
-Fork this repository so that you can commit your changes
+# Clone this repository
+
+Clone or download this repository to start working
+
+Via ssh
+
+`git clone git@gitlab.com:centralesupelec_ds/st4-mds.git`
+
+Via http
+
+`git clone https://gitlab.com/centralesupelec_ds/st4-mds.git`
 
 ## Installation
 
@@ -33,7 +43,6 @@ Using conda
 ### Install requirements
 
 `pip install -r requirements.txt`
-
 
 ## Project Organization
 
