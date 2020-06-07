@@ -25,6 +25,9 @@ def data_split(dataset, n_test_set=30):
 
     return X_train, X_test
 
+def rmse(y_true, y_pred):
+    return np.sqrt(mean_squared_error(y_true, y_pred))
+
 
 def evaluate_arima_model(X_train, X_test, arima_order):
     """
@@ -59,7 +62,7 @@ def evaluate_arima_model(X_train, X_test, arima_order):
         history.append(X_test.values[t])
 
     # calculate out of sample error
-    error = np.sqrt(mean_squared_error(X_test, predictions))
+    error = rmse(X_test, predictions)
 
     return error, predictions
 
