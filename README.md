@@ -18,7 +18,7 @@ Via http
 
 ### Go to path
 
-`cd /path/to/st4_mds_prepa`
+`cd /path/to/st4-mds`
 
 ### Create a virtual environment (you may skip this step if mds_env already exists in your directory)
 
