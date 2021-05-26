@@ -42,7 +42,24 @@ Using conda
 
 ### Install requirements
 
+Using virtualenv
+
 `pip install -r requirements.txt`
+
+Using conda
+
+`conda install --yes --file requirements.txt`
+
+### Adding virtualenv to jupyter notebook
+
+Install jupyter
+
+`(mds-env)$ pip install jupyter`
+
+Add kernel to jupyter
+
+`(mds-env)$ ipython kernel install --name mds-env --user`
+
 
 ## Project Organization
 
