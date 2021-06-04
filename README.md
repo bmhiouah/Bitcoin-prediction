@@ -28,7 +28,7 @@ Using virtualenv
 
 Using conda
 
-`conda create -n mds_env python=3`
+`conda create -n mds_env python=3.7`
 
 ### Activate virtual environment
 
@@ -38,17 +38,11 @@ Using virtualenv
 
 Using conda
 
-`source activate mds_env`
+`conda activate mds_env`
 
 ### Install requirements
 
-Using virtualenv
-
-`pip install -r requirements.txt`
-
-Using conda
-
-`conda install --yes --file requirements.txt`
+`python -m pip install -r requirements.txt`
 
 ### Adding virtualenv to jupyter notebook
 
