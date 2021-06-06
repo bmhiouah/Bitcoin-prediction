@@ -48,7 +48,7 @@ Using conda
 
 Install jupyter
 
-`(mds-env)$ pip install jupyter`
+`(mds-env)$ python -m pip install jupyter`
 
 Add kernel to jupyter
 
