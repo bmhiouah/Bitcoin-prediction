@@ -1,5 +1,5 @@
 import numpy as np
-from statsmodels.tsa.arima_model import ARIMA
+from statsmodels.tsa.arima.model import ARIMA
 from sklearn.metrics import mean_squared_error
 
 
@@ -55,7 +55,7 @@ def evaluate_arima_model(X_train, X_test, arima_order):
     predictions = list()
 
     for t in range(len(X_test)):
-        model = ARIMA(history, order=arima_order)
+        model = ARIMA(endog=history, order=arima_order)
         model_fit = model.fit(disp=0)
         yhat = model_fit.forecast()[0]
         predictions.append(yhat[0])
